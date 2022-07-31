@@ -55,6 +55,8 @@ nav{
 	flex-direction: row;
 	background-color: #005883;
 	text-align: center;
+	
+	
 }
 
 ul{
@@ -62,11 +64,13 @@ ul{
 	margin: auto;
 	padding-top: 4px;
 	display: inline-block;
+	
 }
 li{
 	float: left;
 	list-style-type: none; 
 	padding: 4px;
+	
 
 }
 nav a{
@@ -107,6 +111,7 @@ p{
 
 ul, ol {
 	list-style: none;
+	
 }
 nav li a
 {
@@ -128,8 +133,19 @@ nav li ul{
 	display: none;
 	position: absolute;
 	min-width: 30px;
+	
 }
 nav li:hover >ul
 {
 	display: block;
 }
+
+nav .navbar-nav li a{
+	color: #F47920;
+	}
+nav .navbar-nav li a:hover{
+	color: #005883;
+	}
+nav	.navbar-nav a { 
+	color: #F47920; 
+	}
